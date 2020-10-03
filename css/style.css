@@ -1,0 +1,428 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+/* coding part start here */
+
+.header-section {
+    width: 100%;
+    background: url("../images/Background.png") center top no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu .bg-light {
+    background: transparent !important;
+}
+
+.menu .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    color: #5a6e79;
+    margin: 0px 14px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-link {
+    display: block;
+    padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc178;
+    border-bottom: 1px solid #ffc178;
+}
+
+.menu .btn-info {
+    background: white;
+    color: #5a6e79;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+
+.menu .btn-info:hover {
+    background: white;
+    color: #ffc178;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    box-shadow: 1px 4px 35px #ccc;
+}
+
+.header-section .banner {
+    width: 100%;
+}
+
+.header-section .banner .banner-inner {
+    padding: 111px 0px;
+    margin-bottom: 176px;
+}
+
+.header-section .banner .banner-inner h1 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #ffc178;
+}
+
+.header-section .banner .banner-inner p {
+    color: #5a6e79;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.header-section .banner .banner-inner a {
+    background: #ffc178;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 1px solid #ffc178;
+}
+
+.header-section .banner .banner-inner a:hover {
+    background: white;
+    color: #ffc178;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    box-shadow: 1px 4px 35px #ccc;
+}
+
+
+/* department section coding start here */
+
+.department {
+    width: 100%;
+}
+
+.inner-department {
+    width: 100%;
+}
+
+.inner-department h1 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.inner-department p {
+    text-align: center;
+    color: #5a6e79;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.department .bg-inner {
+    width: 100%;
+}
+
+.department .bg-1 {
+    width: 100%;
+    background: #f9703a;
+    text-align: center;
+}
+
+.department .bg-1 p {
+    padding-bottom: 61px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.department .bg-2 {
+    width: 100%;
+    background: #80be41;
+    text-align: center;
+}
+
+.department .bg-2 p {
+    padding-bottom: 61px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.department .bg-3 img {
+    padding-top: 36px;
+}
+
+.department .bg-3 {
+    width: 100%;
+    background: #ffb258;
+    text-align: center;
+}
+
+.department .bg-3 p {
+    padding-bottom: 61px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.department .col-md-4 {
+    padding-bottom: 0px;
+}
+
+
+/* limitless coding part start here */
+
+.limitless {
+    width: 100%;
+}
+
+.limitless .inner-limitless {
+    width: 100%;
+}
+
+.limitless .inner-limitless .imgs {
+    width: 470px;
+}
+
+.limitless .inner-text {}
+
+.limitless .inner-text h1 {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.limitless .inner-text p {
+    color: #5a6e79;
+    font-size: 15px;
+}
+
+.limitless .studentes h1 {
+    color: #ffba00;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.limitless .studentes p {
+    color: #ffba00;
+}
+
+.limitless .course h1 {
+    color: #ff5f72;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.limitless .course p {
+    color: #ff5f72;
+}
+
+.limitless .videos h1 {
+    color: #43cb83;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.limitless .videos p {
+    color: #43cb83;
+}
+
+
+/* university code start here */
+
+.university {
+    width: 100%;
+}
+
+.inner-university {
+    width: 100%;
+    padding: 35px 0px;
+}
+
+.inner-university h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.university .inner-card {
+    padding-bottom: 41px;
+}
+
+.university .inner-card {
+    width: 100%;
+}
+
+.university .card-title {
+    margin-bottom: .75rem;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.university .card-title:hover {
+    color: #ffb258;
+    text-decoration: underline;
+}
+
+.university .keep {
+    font-weight: 600;
+    color: #212529;
+    padding: 5px 0px;
+    border-radius: 0px;
+    border: 0px;
+    padding-bottom: 20px;
+}
+
+.university .keep:hover {
+    color: #2481dd;
+}
+
+
+/*  */
+
+.footer {
+    width: 100%;
+    background: #252c3a;
+    padding: 60px 0px;
+}
+
+.inner-widget img {
+    margin-bottom: 10px;
+}
+
+.inner-widget p {
+    color: #78797d;
+    /* border-bottom: 1px solid #303744; */
+    margin-bottom: 10px;
+}
+
+.fa {
+    font-size: 18px;
+    color: #5a6e79;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+.fa:hover {
+    font-size: 18px;
+    color: #2481dd;
+    margin-right: 9px;
+}
+
+.inner-widget1 h6 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.inner-widget1 p {
+    line-height: 46px;
+    font-size: 15px;
+    color: #78797d;
+}
+
+.wrapper {
+    position: absolute;
+    /*top: 50%;
+    left: 50%;*/
+    /* transform: translate(-50%,-50%);*/
+}
+
+.form {}
+
+.form h6 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.form p {
+    font-size: 15px;
+    color: #78797d;
+    text-transform: capitalize;
+}
+
+
+/*  <!-- subscribe box form css part start hera --> */
+
+.form .wrapper .container {
+    position: relative;
+    padding: 1px 2px;
+}
+
+.input {
+    width: 267px;
+    border: 3px solid #fff;
+    background: white;
+    padding: 8px 8px;
+    border-radius: 0px;
+    outline: none;
+    font-size: 14px;
+    color: black;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    cursor: pointer;
+    color: white;
+    background: #ffb258;
+    border: 0px;
+    width: 83px;
+    height: 46px;
+    border-radius: 0px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*  <!-- subscribe box form css part finish hera --> */
+
+
+/* top footer part start here */
+
+.list ul {
+    text-align: right;
+}
+
+.copy {
+    padding: 5px 0px;
+    margin-top: 18px;
+    color: #6b6b6b;
+}
+
+.list {
+    padding: 5px 0px;
+    margin-top: 18px;
+    text-align: right;
+    color: #6b6b6b;
+}
+
+.list a {
+    margin: 0px 12px;
+    text-align: right;
+    color: #6b6b6b;
+}
+
+.last {
+    width: 100%;
+    background: #1d232e;
+}
