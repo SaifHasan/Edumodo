@@ -129,19 +129,19 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="studentes">
-                                <h1>4000</h1>
+                                <h1 class="counter">4000</h1>
                                 <p>Students</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="course">
-                                <h1>260</h1>
+                                <h1 class="counter">260</h1>
                                 <p>Courses</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="videos">
-                                <h1>5679</h1>
+                                <h1 class="counter">5679</h1>
                                 <p>Hours video</p>
                             </div>
                         </div>
@@ -285,7 +285,7 @@
                 <div class="col-md-3">
                     <div class="inner-widget1">
                         <h6>FEATURED PROGRAMS</h6>
-                        <p>Fixed responsive issue - Just Now <br> New portfolio grid layout - Today <br> Tested & approved WP 3.6 - 5 Hours Ago <br> Fixed google map issue - Yesterday</p>
+                        <p>Fixed responsive issue - <span>Just Now</span> <br> New portfolio grid layout - <span>Today</span> <br> Tested & approved WP 3.6 - <span> 5 Hours Ago</span> <br> Fixed google map issue - <span>Yesterday</span></p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -342,6 +342,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    </script>
+
 </body>
 
 </html>

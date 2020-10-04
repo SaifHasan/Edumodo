@@ -215,7 +215,7 @@ a:hover {
     font-size: 15px;
 }
 
-.limitless .studentes h1 {
+.limitless .studentes .counter {
     color: #ffba00;
     font-weight: 700;
     margin-bottom: 0px;
@@ -225,7 +225,7 @@ a:hover {
     color: #ffba00;
 }
 
-.limitless .course h1 {
+.limitless .course .counter {
     color: #ff5f72;
     font-weight: 700;
     margin-bottom: 0px;
@@ -235,7 +235,7 @@ a:hover {
     color: #ff5f72;
 }
 
-.limitless .videos h1 {
+.limitless .videos .counter {
     color: #43cb83;
     font-weight: 700;
     margin-bottom: 0px;
@@ -336,6 +336,11 @@ a:hover {
     line-height: 46px;
     font-size: 15px;
     color: #78797d;
+}
+
+.inner-widget1 span {
+    color: #6b6b6b;
+    font-size: 12px;
 }
 
 .wrapper {
